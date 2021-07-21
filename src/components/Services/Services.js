@@ -17,7 +17,7 @@ const Services = () => {
           </CardHeader>
           <CardDesc>
             <CardText>
-              Lorum Ipsum Dolor Sit Amet, Consectetur <br></br>Adipiscing Elit,
+              Lorum Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit,
               Sed Do Eiusm Incidiunet Ut.
             </CardText>
           </CardDesc>
@@ -32,7 +32,7 @@ const Services = () => {
           </CardHeader>
           <CardDesc>
             <CardText>
-              Lorum Ipsum Dolor Sit Amet, Consectetur <br></br>Adipiscing Elit,
+              Lorum Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit,
               Sed Do Eiusm Incidiunet Ut.
             </CardText>
           </CardDesc>
@@ -47,7 +47,7 @@ const Services = () => {
           </CardHeader>
           <CardDesc>
             <CardText>
-              Lorum Ipsum Dolor Sit Amet, Consectetur <br></br>Adipiscing Elit,
+              Lorum Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit,
               Sed Do Eiusm Incidiunet Ut.
             </CardText>
           </CardDesc>
@@ -71,10 +71,11 @@ const ServicesContent = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
+
 `;
 
 const CardItem = styled.div`
-  height: 155px;
+  height: auto;
   width: 28%;
   border: 1px solid #e6e6e6;
   margin-right: 35px;
@@ -90,6 +91,7 @@ const CardItem = styled.div`
       border: 2px solid #a2a2a2;
       transition: .3s ease-in-out;
   }
+
 `;
 
 const CardHeader = styled.div`
@@ -121,13 +123,13 @@ const CartTitle = styled.h3`
 `;
 
 const CardDesc = styled.div`
-  width: 100%;
   padding-left: 10px;
   padding-bottom: 10px;
+  padding-right: 30px;
 `;
 
 const CardText = styled.p`
-  font-size: 13px;
+  font-size: 15px;
   color: #707070;
   font-family: "Poppins", sans-serif;
 `;
