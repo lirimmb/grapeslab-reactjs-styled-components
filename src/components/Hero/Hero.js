@@ -60,21 +60,9 @@ const HeroH1 = styled.h1`
   position: relative;
   font-size: clamp(2.5rem, 9vw, 5rem);
   margin-bottom: 1rem;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-weight: bolder;
-
-  &::after {
-    content: "";
-    width: 55%;
-    height: 25px;
-    position: absolute;
-    border-bottom: solid 5px #f54748;
-    border-radius: 100px;
-    margin-bottom: -5px;
-    bottom: 0;
-    left: 1;
-    right: 58px;
-  }
+  font-family: 'Poppins', sans-serif;
 `;
 
 const HeroP = styled.p`
@@ -82,6 +70,8 @@ const HeroP = styled.p`
   margin-bottom: 2rem;
   color: #707070;
   line-height: normal;
+  padding-right: 60px;
+  font-family: 'Poppins', sans-serif;
 `;
 
 const HeroSearch = styled.div`
@@ -109,7 +99,7 @@ const HeroInput = styled.input`
 
 const HeroSearchIcon = styled(AiOutlineSearch)`
   color: #f54748;
-  font-size: larger;
+  font-size: 31px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 

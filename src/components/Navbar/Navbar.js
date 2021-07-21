@@ -44,14 +44,21 @@ const NavContainer = styled.div`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 1300px;
   height: 100%;
 `;
 
 const NavLogo = styled.h1`
+  color: #0f0e32;
   font-size: 25px;
   font-family: 'Otomanopee One', sans-serif;
-  color: #0f0e32;
+  cursor: pointer;
+  transition: .3s all;
+
+  &:hover{
+    opacity: 0.8;
+    transition: .3s all;
+  }
 `;
 
 const Navul = styled.ul`
@@ -80,10 +87,17 @@ const NavHeart = styled.div`
     align-items:center;
     margin-right: 15px;
     cursor: pointer;
+    
 `
 
 const Heart = styled(BsHeart)`
     color: #fff;
+    transition: .3s all;
+
+    &:hover{
+      opacity: .8;
+      transition: .3s all;
+    }
 `;
 
 const NavShop = styled.div`
@@ -99,4 +113,10 @@ const NavShop = styled.div`
 
 const ShopIcon = styled(FiShoppingCart)`
     color: #fff;
+    transition: .3s all;
+
+    &:hover{
+      opacity: .8;
+      transition: .3s all;
+    }
 `;
